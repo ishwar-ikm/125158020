@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 export const getProducts = async (req, res) => {
   try {
     const { company, category } = req.params;
-    const { top = 15, minPrice = 0, maxPrice = 100000, rating, sort } = req.query;
+    const { top = 15, minPrice = 1, maxPrice = 100000, rating, sort } = req.query;
 
     const { access_token } = await getAuthToken();
 
@@ -20,9 +20,9 @@ export const getProducts = async (req, res) => {
 
     let data = await response.json();
 
-    if(!response.ok){
-      throw new Error(data.message);
-    }
+    // if(!response.ok){
+    //   throw new Error(data.message);
+    // }
     console.log(data);
     data = data.map(item => ({
       ...item,
