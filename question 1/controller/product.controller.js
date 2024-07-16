@@ -38,3 +38,24 @@ export const getProducts = async (req, res) => {
     return res.status(500).json({ error: 'Internal Server Error' });
   }
 };
+
+export const getOneProduct = async (req, res) => {
+  try {
+    const {id} = req.params;
+
+    const filePath = path.resolve('E:/ikm/Full Stack Projects/125158020/question 1/data', 'products.json');
+    const jsonData = await fs.readFile(filePath, 'utf-8');
+    const data = JSON.parse(jsonData);
+    
+    const product = data.find(item => item._id === id);
+
+    if (!product) {
+      return res.status(404).json({ error: 'Product not found' });
+    }
+
+    return res.status(200).json(product);
+  } catch (error) {
+    console.error('Error:', error);
+    return res.status(500).json({ error: 'Internal Server Error' });
+  }
+};
