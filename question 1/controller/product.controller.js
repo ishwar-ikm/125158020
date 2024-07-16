@@ -1,9 +1,12 @@
 import { getAuthToken } from "../util/getAuthToken.js";
+import fs from 'fs/promises';
+import path from 'path';
+import { v4 as uuidv4 } from 'uuid';
 
 export const getProducts = async (req, res) => {
   try {
     const { company, category } = req.params;
-    const { top, minPrice, maxPrice } = req.query;
+    const { top = 15, minPrice = 0, maxPrice = 100000, rating } = req.query;
 
     const { access_token } = await getAuthToken();
 
@@ -15,8 +18,20 @@ export const getProducts = async (req, res) => {
       }
     });
 
-    const data = await response.json();
-    
+    let data = await response.json();
+
+    data = data.map(item => ({
+      ...item,
+      _id: uuidv4()
+    }));
+
+    if (rating) {
+      data = data.filter(item => item.rating >= parseInt(rating));
+    }
+
+    const filePath = path.resolve('E:/ikm/Full Stack Projects/125158020/question 1/data', 'products.json');
+    await fs.writeFile(filePath, JSON.stringify(data, null, 2));
+
     return res.status(200).json(data);
   } catch (error) {
     console.error('Error:', error);
