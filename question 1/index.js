@@ -11,7 +11,7 @@ app.use(urlencoded({ extended: true }));
 
 const PORT = process.env.PORT;
 
-app.use("/api/products", productsRoute);
+app.use("/api/test", productsRoute);
 
 app.listen(PORT, () => {
   console.log(`Listening to port ${PORT}`);
