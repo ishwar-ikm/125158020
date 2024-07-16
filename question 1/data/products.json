@@ -1,122 +1,122 @@
 [
   {
-    "productName": "Computer 9",
-    "price": 8608,
-    "rating": 4.16,
-    "discount": 31,
+    "productName": "Earphone 7",
+    "price": 6923,
+    "rating": 4.9,
+    "discount": 98,
     "availability": "yes",
-    "_id": "700fe213-4500-491c-b932-bce376011861"
+    "_id": "d1f4bc46-3a0e-41c8-87ee-8d4c64409f6a"
   },
   {
-    "productName": "Computer 7",
-    "price": 121,
-    "rating": 3.89,
-    "discount": 36,
+    "productName": "Earphone 15",
+    "price": 6948,
+    "rating": 4.39,
+    "discount": 11,
     "availability": "yes",
-    "_id": "1c56c876-890c-4aef-a41d-5a6a20e6ada2"
+    "_id": "2044905d-77fe-4375-bd75-714e69cf03fb"
   },
   {
-    "productName": "Computer 2",
-    "price": 7094,
-    "rating": 3.01,
-    "discount": 43,
+    "productName": "Earphone 2",
+    "price": 6408,
+    "rating": 3.64,
+    "discount": 0,
     "availability": "out-of-stock",
-    "_id": "97bdf97f-eeb6-4061-8477-00187f9df6ec"
+    "_id": "503403d7-7365-43cd-afd9-644b22165c57"
   },
   {
-    "productName": "Computer 4",
-    "price": 2527,
-    "rating": 2.94,
-    "discount": 41,
+    "productName": "Earphone 3",
+    "price": 7995,
+    "rating": 3.3,
+    "discount": 16,
+    "availability": "out-of-stock",
+    "_id": "b756b3f3-ffa5-4393-9910-3f9e0d319efe"
+  },
+  {
+    "productName": "Earphone 10",
+    "price": 671,
+    "rating": 3.1,
+    "discount": 64,
     "availability": "yes",
-    "_id": "8556fb3b-e2d7-4490-909f-5d582d3c59fb"
+    "_id": "b4c1c107-3991-439b-b355-35808d8baca1"
   },
   {
-    "productName": "Computer 3",
-    "price": 3764,
-    "rating": 2.3,
+    "productName": "Earphone 14",
+    "price": 3843,
+    "rating": 2.91,
     "discount": 74,
-    "availability": "yes",
-    "_id": "62422b1d-7cc0-4982-be45-13e26b3acf0b"
+    "availability": "out-of-stock",
+    "_id": "d8347803-a201-486b-84e1-41eaa4773625"
   },
   {
-    "productName": "Computer 10",
-    "price": 3092,
+    "productName": "Earphone 12",
+    "price": 6672,
+    "rating": 2.8,
+    "discount": 19,
+    "availability": "out-of-stock",
+    "_id": "912a11a5-b09d-4517-adc9-46ce8745c6b8"
+  },
+  {
+    "productName": "Earphone 15",
+    "price": 906,
+    "rating": 2.8,
+    "discount": 83,
+    "availability": "yes",
+    "_id": "0c2ae616-7b6a-4a14-8452-c7c5f01936d3"
+  },
+  {
+    "productName": "Earphone 10",
+    "price": 5724,
+    "rating": 2.74,
+    "discount": 60,
+    "availability": "yes",
+    "_id": "531b1067-316f-48cc-9dc4-a18c94a5a393"
+  },
+  {
+    "productName": "Earphone 15",
+    "price": 6402,
+    "rating": 2.56,
+    "discount": 52,
+    "availability": "yes",
+    "_id": "41576961-1ab4-4368-8699-1bae4758bb95"
+  },
+  {
+    "productName": "Earphone 14",
+    "price": 8465,
     "rating": 2.24,
-    "discount": 75,
-    "availability": "yes",
-    "_id": "f1a414ac-bf66-499a-84e0-4e7c28b4ef8a"
-  },
-  {
-    "productName": "Computer 7",
-    "price": 4535,
-    "rating": 1.67,
-    "discount": 66,
+    "discount": 28,
     "availability": "out-of-stock",
-    "_id": "a38d2cea-605e-4c11-8554-2e3aa607ff3d"
+    "_id": "6587367e-94a8-4414-9992-4f6b69385743"
   },
   {
-    "productName": "Computer 7",
-    "price": 9434,
-    "rating": 1.5,
-    "discount": 99,
+    "productName": "Earphone 12",
+    "price": 9959,
+    "rating": 2.01,
+    "discount": 4,
     "availability": "out-of-stock",
-    "_id": "509e5577-5e55-4db1-9676-85ddd2fa35d0"
+    "_id": "b0b239e5-0ad6-4509-ba44-7b10c885b2b9"
   },
   {
-    "productName": "Computer 6",
-    "price": 1555,
-    "rating": 1.49,
-    "discount": 41,
+    "productName": "Earphone 14",
+    "price": 1245,
+    "rating": 1.76,
+    "discount": 50,
     "availability": "yes",
-    "_id": "8507e85c-8609-4b6a-b84c-4d8e1564388b"
+    "_id": "2de87edb-89a6-47ba-adfa-3a7e87e38f40"
   },
   {
-    "productName": "Computer 9",
-    "price": 3857,
-    "rating": 0.89,
-    "discount": 71,
+    "productName": "Earphone 2",
+    "price": 4554,
+    "rating": 0.84,
+    "discount": 33,
     "availability": "out-of-stock",
-    "_id": "a872f461-0d3f-4e78-9a9a-defe597094cc"
+    "_id": "a071aa6e-881f-4ef4-8481-6bb0d804a128"
   },
   {
-    "productName": "Computer 12",
-    "price": 6971,
-    "rating": 0.64,
-    "discount": 27,
+    "productName": "Earphone 10",
+    "price": 626,
+    "rating": 0.16,
+    "discount": 18,
     "availability": "yes",
-    "_id": "7678a7ab-2848-4a02-a182-57b655aea1ba"
-  },
-  {
-    "productName": "Computer 11",
-    "price": 3884,
-    "rating": 0.32,
-    "discount": 23,
-    "availability": "yes",
-    "_id": "b27a19d4-9e25-4d75-b32e-d9201b8823b5"
-  },
-  {
-    "productName": "Computer 11",
-    "price": 4250,
-    "rating": 0.17,
-    "discount": 55,
-    "availability": "yes",
-    "_id": "ea4fb863-c89f-427f-a42e-6778230aaea3"
-  },
-  {
-    "productName": "Computer 12",
-    "price": 381,
-    "rating": 0.12,
-    "discount": 56,
-    "availability": "yes",
-    "_id": "55e0e4f1-71d3-4483-a735-718e255d2209"
-  },
-  {
-    "productName": "Computer 15",
-    "price": 1918,
-    "rating": 0.08,
-    "discount": 91,
-    "availability": "out-of-stock",
-    "_id": "2163f2ff-2756-4b7a-bb04-58bc84f49640"
+    "_id": "95a6ef7e-71f4-4be3-aa67-c20879b91bda"
   }
 ]
