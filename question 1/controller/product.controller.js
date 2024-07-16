@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 export const getProducts = async (req, res) => {
   try {
     const { company, category } = req.params;
-    const { top = 15, minPrice = 0, maxPrice = 100000, rating } = req.query;
+    const { top = 15, minPrice = 0, maxPrice = 100000, rating, sort } = req.query;
 
     const { access_token } = await getAuthToken();
 
@@ -29,6 +29,16 @@ export const getProducts = async (req, res) => {
       data = data.filter(item => item.rating >= parseInt(rating));
     }
 
+    if (sort) {
+      if (sort === "price") {
+        data.sort((a, b) => a.price - b.price);
+      } else if (sort === "discount") {
+        data.sort((a, b) => b.discount - a.discount);
+      } else if (sort === "rating") {
+        data.sort((a, b) => b.rating - a.rating);
+      }
+    }
+
     const filePath = path.resolve('E:/ikm/Full Stack Projects/125158020/question 1/data', 'products.json');
     await fs.writeFile(filePath, JSON.stringify(data, null, 2));
 
@@ -41,12 +51,12 @@ export const getProducts = async (req, res) => {
 
 export const getOneProduct = async (req, res) => {
   try {
-    const {id} = req.params;
+    const { id } = req.params;
 
     const filePath = path.resolve('E:/ikm/Full Stack Projects/125158020/question 1/data', 'products.json');
     const jsonData = await fs.readFile(filePath, 'utf-8');
     const data = JSON.parse(jsonData);
-    
+
     const product = data.find(item => item._id === id);
 
     if (!product) {
