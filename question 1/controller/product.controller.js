@@ -20,6 +20,10 @@ export const getProducts = async (req, res) => {
 
     let data = await response.json();
 
+    if(!response.ok){
+      throw new Error(data.message);
+    }
+    console.log(data);
     data = data.map(item => ({
       ...item,
       _id: uuidv4()

@@ -1,122 +1,122 @@
 [
   {
-    "productName": "Laptop 8",
-    "price": 153,
-    "rating": 4.88,
-    "discount": 22,
-    "availability": "yes",
-    "_id": "05bedf83-679f-4ac3-9e81-3b51cd4ebdcf"
-  },
-  {
-    "productName": "Laptop 10",
-    "price": 296,
-    "rating": 4.72,
-    "discount": 89,
-    "availability": "yes",
-    "_id": "69d3cc38-1db1-4c76-8390-bfab263a553c"
-  },
-  {
-    "productName": "Laptop 15",
-    "price": 1069,
-    "rating": 4.56,
-    "discount": 25,
-    "availability": "yes",
-    "_id": "ad4c944b-33a2-49fd-9aee-e5f328cc6f38"
-  },
-  {
-    "productName": "Laptop 2",
-    "price": 7340,
-    "rating": 4.44,
-    "discount": 28,
-    "availability": "yes",
-    "_id": "b3b64091-8f38-4020-b2b1-7ac728f6f88b"
-  },
-  {
-    "productName": "Laptop 10",
-    "price": 9167,
-    "rating": 4.32,
-    "discount": 84,
-    "availability": "yes",
-    "_id": "9c2ed158-ecd7-4eb2-b854-311943bb010b"
-  },
-  {
-    "productName": "Laptop 5",
-    "price": 9135,
-    "rating": 4.25,
-    "discount": 31,
-    "availability": "yes",
-    "_id": "4b5a97a6-c54f-4acc-886a-06e9436a207c"
-  },
-  {
-    "productName": "Laptop 11",
-    "price": 8408,
-    "rating": 4.16,
-    "discount": 82,
-    "availability": "yes",
-    "_id": "19355839-f55d-4795-bb60-a90c98f6cccc"
-  },
-  {
-    "productName": "Laptop 13",
-    "price": 2714,
-    "rating": 3.67,
-    "discount": 45,
+    "productName": "PC 1",
+    "price": 2949,
+    "rating": 4.41,
+    "discount": 16,
     "availability": "out-of-stock",
-    "_id": "cc0dda14-02a5-4ec3-aa7e-6eb14308e5c6"
+    "_id": "a9bc408c-aba5-41b5-a025-345c3b5aec0b"
   },
   {
-    "productName": "Laptop 8",
-    "price": 6326,
-    "rating": 2.79,
-    "discount": 13,
+    "productName": "PC 8",
+    "price": 2156,
+    "rating": 4.38,
+    "discount": 77,
     "availability": "yes",
-    "_id": "af46c8cf-1497-4aa5-9403-6aab65a865ba"
+    "_id": "b44ade9a-2caf-4607-bf1a-bb663b8cfc6b"
   },
   {
-    "productName": "Laptop 2",
-    "price": 1582,
-    "rating": 2.32,
-    "discount": 39,
+    "productName": "PC 10",
+    "price": 9506,
+    "rating": 4.27,
+    "discount": 85,
     "availability": "out-of-stock",
-    "_id": "245062a3-69db-41c6-a599-89b8bcb045a1"
+    "_id": "3ac8ca02-58a0-40c9-a28b-4c0393f8f8c5"
   },
   {
-    "productName": "Laptop 8",
-    "price": 6402,
-    "rating": 2.24,
-    "discount": 99,
+    "productName": "PC 3",
+    "price": 2528,
+    "rating": 3.93,
+    "discount": 60,
+    "availability": "out-of-stock",
+    "_id": "8c6edc73-e9cc-4c87-bb2b-3222f794ac11"
+  },
+  {
+    "productName": "PC 9",
+    "price": 3144,
+    "rating": 3.73,
+    "discount": 78,
     "availability": "yes",
-    "_id": "35ef9cd0-3201-47c2-9f40-4ffcfc9e07e0"
+    "_id": "15d93a15-b012-446e-8281-895df0424bba"
   },
   {
-    "productName": "Laptop 5",
-    "price": 9847,
-    "rating": 2.18,
-    "discount": 39,
-    "availability": "out-of-stock",
-    "_id": "f7092874-b8ce-41df-aab2-aa4a7c036efe"
-  },
-  {
-    "productName": "Laptop 2",
-    "price": 7240,
-    "rating": 1.62,
-    "discount": 63,
-    "availability": "out-of-stock",
-    "_id": "c6e1e1d1-f027-400b-ba69-106ccc479481"
-  },
-  {
-    "productName": "Laptop 2",
-    "price": 8114,
-    "rating": 1.5,
-    "discount": 93,
+    "productName": "PC 13",
+    "price": 9830,
+    "rating": 3.55,
+    "discount": 38,
     "availability": "yes",
-    "_id": "01bffe3c-f60e-4820-b544-47521d9001fa"
+    "_id": "f7901042-0056-415f-ada1-875c36d40e7e"
   },
   {
-    "productName": "Laptop 11",
-    "price": 4348,
-    "rating": 0.2,
-    "discount": 9,
+    "productName": "PC 10",
+    "price": 3398,
+    "rating": 3.1,
+    "discount": 33,
     "availability": "out-of-stock",
-    "_id": "429b3008-c695-428a-994b-29cbfd5c9a49"
+    "_id": "23d97b50-1f8d-43bc-9e72-73789b1638e8"
+  },
+  {
+    "productName": "PC 4",
+    "price": 2194,
+    "rating": 2.92,
+    "discount": 56,
+    "availability": "yes",
+    "_id": "2228f974-3876-4e4b-811a-9386be7555f2"
+  },
+  {
+    "productName": "PC 10",
+    "price": 2570,
+    "rating": 2.61,
+    "discount": 65,
+    "availability": "out-of-stock",
+    "_id": "4e1d5eb5-0667-4b6f-909d-5e51f65e9bca"
+  },
+  {
+    "productName": "PC 3",
+    "price": 7013,
+    "rating": 2.58,
+    "discount": 65,
+    "availability": "out-of-stock",
+    "_id": "e712fc5a-a0e7-4e33-8e63-f0f33bfe14cb"
+  },
+  {
+    "productName": "PC 2",
+    "price": 2948,
+    "rating": 2.5,
+    "discount": 60,
+    "availability": "out-of-stock",
+    "_id": "cab4c14c-2cc5-40ad-bd1a-3b3852dc8a0f"
+  },
+  {
+    "productName": "PC 8",
+    "price": 1171,
+    "rating": 2.11,
+    "discount": 78,
+    "availability": "out-of-stock",
+    "_id": "72618087-7a5b-43aa-81b3-b8879f30e567"
+  },
+  {
+    "productName": "PC 3",
+    "price": 1929,
+    "rating": 2.01,
+    "discount": 96,
+    "availability": "out-of-stock",
+    "_id": "a7415d62-0a2a-4189-86bc-c5815fcaab34"
+  },
+  {
+    "productName": "PC 9",
+    "price": 9861,
+    "rating": 0.82,
+    "discount": 0,
+    "availability": "yes",
+    "_id": "749a1c23-6c24-476b-b1e6-1ce5b157398b"
+  },
+  {
+    "productName": "PC 13",
+    "price": 6924,
+    "rating": 0.49,
+    "discount": 43,
+    "availability": "yes",
+    "_id": "2f83eaf0-565a-4eb1-a1d3-6e4678666e31"
   }
 ]
